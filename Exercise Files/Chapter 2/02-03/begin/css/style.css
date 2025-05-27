@@ -176,3 +176,15 @@ footer {
         display: block;
     }
 }
+
+
+/* p*rint styles */
+@media print {
+    nav, 
+    article img {
+        display: none;
+    }
+    .sidebar, .footer, .content {
+        display: block;
+    }
+}
